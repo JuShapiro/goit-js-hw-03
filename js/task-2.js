@@ -1,9 +1,9 @@
 function makeArray(firstArray, secondArray, maxLength) {
   const sumArray = firstArray.concat(secondArray);
-  if (maxLength >= maxLength) {
-    return [sumArray.slice(0, maxLength)];
+  if (sumArray.length > maxLength) {
+    return sumArray.slice(0, maxLength);
   } else {
-    return [sumArray];
+    return sumArray;
   }
 }
 
